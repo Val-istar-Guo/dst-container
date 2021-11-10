@@ -1,0 +1,22 @@
+{
+  "name": "dst",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dockerfile",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build -t valistarguo/dst:latest .",
+    "prepush": "npm run build",
+    "push": "docker push valistarguo/dst:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Val-istar-Guo/dst-container.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Val-istar-Guo/dst-container/issues"
+  },
+  "homepage": "https://github.com/Val-istar-Guo/dst-container#readme"
+}
